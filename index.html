@@ -1,0 +1,22 @@
+<!-- Medicine & Health Reminder Section -->
+<section id="med-reminder" class="container">
+  <h2>💊 Health & Med Reminder</h2>
+  <div class="form-wrapper" style="max-width: 600px; margin: 0 auto;">
+    <form id="medForm">
+      <div class="form-group">
+        <label for="medName">Medicine / Vitamin Name</label>
+        <input type="text" id="medName" placeholder="e.g. Paracetamol, Vitamin D" required>
+      </div>
+      <div class="form-group">
+        <label for="medTime">Reminder Time</label>
+        <input type="time" id="medTime" required>
+      </div>
+      <button type="submit" class="btn-primary">Set Reminder</button>
+    </form>
+
+    <h3 style="margin-top: 25px; margin-bottom: 15px; font-size: 18px;">Your Active Reminders</h3>
+    <ul id="medList" class="activity-feed">
+      <li class="empty-feed">No active reminders set.</li>
+    </ul>
+  </div>
+</section>
